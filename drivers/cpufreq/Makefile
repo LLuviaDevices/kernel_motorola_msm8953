@@ -18,6 +18,8 @@ obj-$(CONFIG_CPU_FREQ_GOV_ALUCARD)	+= cpufreq_alucard.o
 obj-$(CONFIG_CPU_FREQ_GOV_SMARTMAX_EPS) += cpufreq_smartmax_eps.o
 obj-$(CONFIG_CPU_FREQ_GOV_COMMON)		+= cpufreq_governor.o
 obj-$(CONFIG_CPU_FREQ_GOV_INTELLIACTIVE) += cpufreq_intelliactive.o
+obj-$(CONFIG_CPU_FREQ_GOV_BIOSHOCK) += cpufreq_bioshock.o
+obj-$(CONFIG_CPU_FREQ_GOV_DARKNESS) += cpufreq_darkness.o
 obj-$(CONFIG_CPU_BOOST)			+= cpu-boost.o
 
 # CPU Input Boost
